@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-py: #C9A95C;
+  --bg-sy: #f2f4f7;
+  --bg-gold: #ffff00;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.h-70 {
+  min-height: 70vh;
+}
